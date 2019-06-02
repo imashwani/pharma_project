@@ -1,0 +1,32 @@
+{
+  "name": "pharma_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ssr-server.js",
+    "build": "next build",
+    "start": "npm-run-all --parallel watch:api watch:web",
+    "watch:api": "nodemon --watch app --watch  server/dev-api",
+    "watch:web": "nodemon --watch routes/web.js server/dev-web",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.19.2",
+    "express": "^4.17.1",
+    "gh-pages": "^2.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "homepage": "https://imashwani.github.io/pharma_project",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
