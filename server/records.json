@@ -1,8 +1,8 @@
 {
   "modules": {
     "byIdentifier": {
-      "multi private-next-pages/index.js": 0,
-      "multi private-next-pages/contact.js": 1,
+      "multi private-next-pages/contact.js": 0,
+      "multi private-next-pages/index.js": 1,
       "multi next/dist/pages/_app": 2,
       "multi next/dist/pages/_error": 3,
       "multi next/dist/pages/_document": 4
