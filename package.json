@@ -10,7 +10,8 @@
     "watch:api": "nodemon --watch app --watch  server/dev-api",
     "watch:web": "nodemon --watch routes/web.js server/dev-web",
     "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build"
+    "predeploy": "yarn run build",
+    "now-build" : "next build"
   },
   "keywords": [],
   "author": "",
