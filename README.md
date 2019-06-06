@@ -1,4 +1,4 @@
 # pharma_project
 static website
 
-`npm start`
+`npm run dev`
